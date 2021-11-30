@@ -19,7 +19,9 @@ const Header = () => {
                     <div className="navbar-nav ms-5 ps-5">
                         <NavLink to="/home" className="nav-item nav-link active " style={{ color: "white", fontSize: "20px" }}>HOME</NavLink>
                         <NavLink to="/about" className="nav-item nav-link active " style={{ color: "white", fontSize: "20px" }}>ABOUT ME</NavLink>
+                        <NavLink to="/blogs" className="nav-item nav-link active " style={{ color: "white", fontSize: "20px" }}>Blogs</NavLink>
                         <NavHashLink style={{ color: "white", fontSize: "20px" }} className=" nav-item nav-link active " as={HashLink} to="/home#skills">SKILLS</NavHashLink>
+                        <NavHashLink style={{ color: "white", fontSize: "20px" }} className=" nav-item nav-link active " as={HashLink} to="/home#projects">PROJECTS</NavHashLink>
 
                         <NavHashLink style={{ color: "white", fontSize: "20px" }} className=" nav-item nav-link active " as={HashLink} to="/home#form">CONTACT</NavHashLink>
 
