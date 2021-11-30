@@ -16,10 +16,27 @@ const Project = (props) => {
                             <h4 className="card-text">{ProjectName}</h4>
                             <hr style={{ border: "2px solid blue" }} />
 
-                            <Link className="link" to={`details/${id}`}><button className="btn-grad">
-                                Details
-                            </button>
-                            </Link>
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 pt-5">
+                                <div>
+                                    <a href="https://apartmentsales-2e5d4.web.app/" target="_blank"><button className="btn-grad ">
+                                        Preview
+                                    </button>
+                                    </a>
+                                </div>
+                                <div>
+                                    <Link className="link" to={`details/${id}`}><button className="btn-grad ">
+                                        Details
+                                    </button>
+                                    </Link>
+                                </div>
+                                <div>
+                                    <a href="https://github.com/Sadiasultana147/ApartmentSales-Client-Side" target="_blank"><button className="btn-grad ">
+                                        GITLINK
+                                    </button>
+                                    </a>
+                                </div>
+                            </div>
+
 
                         </div>
 

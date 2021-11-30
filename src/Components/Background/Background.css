@@ -9,11 +9,11 @@
     font-family: Lora;
    
     stroke: #ffa5d8;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 400;
     stroke-width: 3;
    
-    animation: textAnimate 5s infinite alternate;
+    animation: textAnimate 3s infinite alternate;
     
   }
   
