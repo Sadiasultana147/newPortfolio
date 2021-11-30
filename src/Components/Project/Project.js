@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Project.css'
 
 const Project = (props) => {
     const { id, ProjectName, image1, features } = props.project
