@@ -12,7 +12,10 @@ const Home = () => {
             <div>
                 <Background></Background>
                 <Skills></Skills>
-                <Projects></Projects>
+
+                <div style={{ backgroundColor: "#695E93" }} >
+                    <Projects></Projects>
+                </div>
 
             </div>
             <Form></Form>

@@ -12,9 +12,9 @@ const Projects = () => {
     }, [])
     return (
         <div id="projects">
-            <h1>PROJECTS</h1>
+            <h1 style={{ color: "white" }} className="pt-5">PROJECTS</h1>
             {
-                <div className="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-5 d-flex justify-content-center mb-5 pb-5  ">
+                <div className="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-5 d-flex justify-content-center   ">
 
 
                     {

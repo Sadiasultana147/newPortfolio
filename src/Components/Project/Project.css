@@ -3,8 +3,16 @@
     box-shadow: 5px 5px 4px 0 rgba(0,0,0,0.2);
     border-radius: 6px;
     height: 100%;
-    transition: 0.3s;
+    /* transition: 0.3s; */
+    transition: all 500ms ease-in-out;
+    background-color: silver;
   }
 .card:hover {
-  box-shadow: 5px 10px 16px 0 rgba(0,0,0,0.3);
+  box-shadow: 4px 8px 12px 0 rgba(0,0,0,0.3);
+  cursor: pointer;
+  transform: translatey(-20px);
+
+ 
+
+ 
 }
