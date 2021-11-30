@@ -1,0 +1,6 @@
+.btn-grad{
+    padding: 8px;
+    border: 2px solid darkred;
+    border-radius: 10px;
+    background-image: linear-gradient(darkred, tomato);
+}
