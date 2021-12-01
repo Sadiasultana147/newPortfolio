@@ -7,6 +7,8 @@
         "image3": "https://i.ibb.co/ZfdJwjV/Dream-King-Dom-png2.png",
         "image4": "https://i.ibb.co/qMB7g6M/Dream-King-Dom-1.png",
         "image5": "https://i.ibb.co/hBYQ4mZ/Dream-King-Dom-2.png",
-        "features": "It's a apartment sales website. Authentication through firebase applied.By Loging users & admins get permission to manage their own dashboard"
+        "features": "It's a apartment sales website. Authentication through firebase applied.By Loging users & admins get permission to manage their own dashboard.",
+        "liveLink": "https://apartmentsales-2e5d4.web.app/",
+        "gitLink": "https://github.com/Sadiasultana147/ApartmentSales-Client-Side"
     }
 ]
