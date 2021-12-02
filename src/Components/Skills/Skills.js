@@ -53,7 +53,7 @@ const Skills = () => {
                     <img className="w-75 h-50" src="https://w7.pngwing.com/pngs/134/190/png-transparent-sql-logo-microsoft-sql-server-mysql-database-logo-others-blue-text-trademark.png" alt="" />
                 </div>
             </div>
-            <h5 style={{ color: "white", backgroundColor: "darkred" }}>FAMILIER</h5>
+            <h5 className="skillbg">FAMILIER</h5>
             <div data-aos="fade-up" data-aos-easing="linear"
                 data-aos-duration="1500" class="ms-4 me-3 row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 pt-5">
                 <div className="col">
@@ -66,7 +66,7 @@ const Skills = () => {
                     <img className="w-100 h-75" src="https://i.pinimg.com/474x/ba/42/f8/ba42f806f0b21ae3c072dbc9e7e68ab0.jpg" alt="" />
                 </div>
             </div>
-            <h5 style={{ color: "white", backgroundColor: "darkred" }}>TOOLS</h5>
+            <h5 className="skillbg">TOOLS</h5>
             <div data-aos="fade-down" data-aos-easing="linear"
                 data-aos-duration="1500" class="ms-4 me-3 row row-cols-1 row-cols-md-2 row-cols-lg-5 g-3 pt-5">
                 <div className="col">

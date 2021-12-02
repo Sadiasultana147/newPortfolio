@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import Project from '../Project/Project';
+import AOS from 'aos';
+
+import 'aos/dist/aos.css';
 
 const Projects = () => {
+    AOS.init();
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
@@ -11,7 +15,7 @@ const Projects = () => {
             .then(data => setProjects(data))
     }, [])
     return (
-        <div id="projects">
+        <div data-aos="zoom-in" data-aos-duration="3000" id="projects">
             <h1 style={{ color: "white" }} className="pt-5">PROJECTS</h1>
             {
                 <div className="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-5 d-flex justify-content-center   ">

@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header/Header';
+import image from '../../../src/images/images-modified.png'
 import './About.css'
 
 const About = () => {
@@ -7,10 +8,10 @@ const About = () => {
         <div className="aboutbg pt-5 pb-4 ">
             <Header></Header>
             <h1>ABOUT ME</h1>
-            <div className="about ms-5">
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-1 pt-5">
                 <div data-aos="fade-down" data-aos-easing="linear"
                     data-aos-duration="1500">
-                    <img className="aboutimg " src="https://www.komputronik.pl/informacje/wp-content/uploads/2020/03/jaki-laptop-do-4000.jpg" alt="" />
+                    <img src={image} className="w-50 " alt="" />
                 </div>
                 <div className="d-flex justify-content-center align-items-center  " data-aos="fade-up" data-aos-easing="linear"
                     data-aos-duration="1500">

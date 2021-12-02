@@ -1,8 +1,10 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import AOS from 'aos';
-import './Form.css'
+
 import 'aos/dist/aos.css';
+import Formcard from '../Formcard/Formcard';
+import './Form.css'
 
 
 const Form = () => {
@@ -21,44 +23,48 @@ const Form = () => {
         e.target.reset();
     };
     return (
-        <div id="form" data-aos="fade-down" data-aos-easing="linear"
-            data-aos-duration="1500"
+        <div data-aos="fade-down" className="contact  pt-5">
+            <div class="row ">
+                <div style={{ color: "white" }} className="row col-lg-5 ms-2"><Formcard></Formcard></div>
+                <div className="row col-lg-7 " >
+                    <div id="form" data-aos="fade-left" data-aos-easing="linear"
+                        data-aos-duration="1500"
 
-            className="contact">
-            <h2 className="pt-4" style={{ color: "white" }}>CONTACT WITH ME</h2>
-            <div class="container py-4 ">
-
-
-                <form ref={form} onSubmit={sendEmail} id="contactForm" >
-
-                    <div class="mb-3">
-
-                        <input style={{ borderRadius: "10px" }} class="form-control " name="subject" type="text" placeholder="Subject" />
-
-                    </div>
-                    <div class="mb-3">
-
-                        <input style={{ borderRadius: "10px" }} class="form-control" name="name" type="text" placeholder="Name" />
-                        {/* <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div> */}
-                    </div>
+                    >
+                        <h2 style={{ color: "white" }}>  <h1><span>CONTACT</span><span> WITH</span><span> ME</span></h1></h2>
+                        <div class="container py-4 ">
 
 
-                    <div class="mb-3">
+                            <form ref={form} onSubmit={sendEmail} id="contactForm" >
 
-                        <input style={{ borderRadius: "10px" }} class="form-control" type="email" name="email" placeholder="Email Address" data-sb-validations="required, email" />
-                        {/* <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div> */}
+                                <div class="mb-3">
 
-                    </div>
+                                    <input style={{ borderRadius: "10px" }} class="form-control " name="subject" type="text" placeholder="Subject" />
+
+                                </div>
+                                <div class="mb-3">
+
+                                    <input style={{ borderRadius: "10px" }} class="form-control" name="name" type="text" placeholder="Name" />
+                                    {/* <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div> */}
+                                </div>
 
 
-                    <div style={{ borderRadius: "10px" }} class="mb-3">
+                                <div class="mb-3">
 
-                        <textarea class="form-control" type="text" name="message" placeholder="Message" style={{ height: "10rem" }} ></textarea>
-                        {/* <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div> */}
-                    </div>
+                                    <input style={{ borderRadius: "10px" }} class="form-control" type="email" name="email" placeholder="Email Address" data-sb-validations="required, email" />
+                                    {/* <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div> */}
+
+                                </div>
 
 
-                    {/* <div style={{ borderRadius: "10px" }} class="d-none" id="submitSuccessMessage">
+                                <div style={{ borderRadius: "10px" }} class="mb-3">
+
+                                    <textarea class="form-control" type="text" name="message" placeholder="Message" style={{ height: "10rem" }} ></textarea>
+                                    {/* <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div> */}
+                                </div>
+
+
+                                {/* <div style={{ borderRadius: "10px" }} class="d-none" id="submitSuccessMessage">
                         <div class="text-center mb-3">Form submission successful!</div>
                     </div>
 
@@ -68,13 +74,17 @@ const Form = () => {
                     </div> */}
 
 
-                    <div style={{ borderRadius: "10px" }} class="d-grid">
-                        <button class="btn btn-primary btn-lg " id="submitButton" type="submit">Submit</button>
+                                <div style={{ borderRadius: "10px" }} class="d-grid">
+                                    <button class="btn btn-primary btn-lg " id="submitButton" type="submit">Submit</button>
+                                </div>
+
+                            </form>
+
+                        </div>
                     </div>
-
-                </form>
-
+                </div>
             </div>
+
         </div>
     );
 };

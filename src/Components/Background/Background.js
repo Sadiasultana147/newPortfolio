@@ -4,6 +4,7 @@ import TypeAnimation from 'react-type-animation';
 
 import './Background.css'
 import Header from '../Header/Header';
+import Icons from '../Icons/Icons';
 
 
 const Background = () => {
@@ -36,6 +37,7 @@ const Background = () => {
                                 WELCOME TO MY PORTFOLIO
                             </text>
 
+
                         </svg>
                     </div>
 
@@ -58,6 +60,7 @@ const Background = () => {
                         wrapper="h2"
                         repeat={Infinity}
                     />
+                    <Icons></Icons>
                 </div>
 
 

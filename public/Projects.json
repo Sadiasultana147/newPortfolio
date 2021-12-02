@@ -8,6 +8,7 @@
         "image4": "https://i.ibb.co/qMB7g6M/Dream-King-Dom-1.png",
         "image5": "https://i.ibb.co/hBYQ4mZ/Dream-King-Dom-2.png",
         "features": "It's a apartment sales website. Authentication through firebase applied.By Loging users & admins get permission to manage their own dashboard.",
+        "technologies": "ReactJs, React-Routing, ExpressJs, NodeJs, MongoDb, Firebase, Heroku etc.",
         "liveLink": "https://apartmentsales-2e5d4.web.app/",
         "gitLink": "https://github.com/Sadiasultana147/ApartmentSales-Client-Side"
     },
@@ -19,6 +20,7 @@
         "image3": "https://i.ibb.co/1Zn2stp/Food-Express-2.png",
         "image4": "https://i.ibb.co/ck5F6cn/Food-Express-3.png",
         "image5": "https://i.ibb.co/kH1SJk7/Food-Express-4.png",
+        "technologies": "ReactJs, React-Routing, ExpressJs, NodeJs, MongoDb, Firebase, Heroku etc.",
         "features": "Food Delivery Website.Authentication through firebase applied. User can select food and confirm his/her order.",
         "liveLink": "https://fooddelivery-ba5a8.web.app/",
         "gitLink": "https://github.com/Sadiasultana147/FoodDelivery"

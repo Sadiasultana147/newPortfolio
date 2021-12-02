@@ -24,13 +24,15 @@ const ProjectDetails = () => {
 
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-1 pt-5">
-                <div><h1 style={{ color: "white" }}><u>Features</u></h1>
-                    <h3 style={{ color: "white" }}>• {Project?.features.slice(0, 30)}</h3>
-                    <h3 style={{ color: "white" }} className="ms-5">• {Project?.features.slice(31, 70)}</h3>
-                    <h3 style={{ color: "white" }} className="ms-5">• {Project?.features.slice(71, 142)}</h3>
+                <div><h1 style={{ color: "white" }}><u>FEATURES</u></h1>
+                    <h3 className="d-flex align-items-center" style={{ color: "white" }}> {Project?.features}</h3>
+                    <br />
+                    <h1 style={{ color: "white" }}><u>TECHNOLOGIES</u></h1>
+                    <h3 className="d-flex align-items-center" style={{ color: "white" }}> {Project?.technologies}</h3>
+
                 </div>
                 <div >
-                    <div className="me-3 pe-5 pb-5" >
+                    <div className="me-2 pe-5 pb-5" >
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">

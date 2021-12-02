@@ -9,11 +9,11 @@
     font-family: Lora;
    
     stroke: #ffa5d8;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 400;
     stroke-width: 3;
    
-    animation: textAnimate 3s infinite alternate;
+    animation: textAnimate 2s infinite alternate;
    
     
   }
@@ -32,6 +32,37 @@
       fill: hsla(189, 68%, 75%,0%)
     }
     
+  }
+  @media (max-width:700px) {
+    svg text {
+        font-family: Lora;
+       
+        stroke: #ffa5d8;
+        font-size: 30px;
+        font-weight: 400;
+        stroke-width: 3;
+       
+       
+        animation: textAnimate 2s infinite alternate;
+       
+        
+      }
+      
+      @keyframes textAnimate {
+        0% {
+          stroke-dasharray: 0 50%;
+          stroke-dashoffset:  20%;
+          fill:hsl(189, 68%, 75%)
+      
+        }
+        
+        100% {
+          stroke-dasharray: 50% 0;
+          stroke-dashoffstet: -20%;
+          fill: hsla(189, 68%, 75%,0%)
+        }
+        
+      }
   }
 .wrapper {
     height: 150vh;
