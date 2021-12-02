@@ -7,7 +7,7 @@ import './Formcard.css'
 const Formcard = () => {
     AOS.init();
     return (
-        <div className="overflow-hidden"  >
+        <div className="overflow-hidden body"  >
 
 
 
@@ -36,7 +36,7 @@ const Formcard = () => {
                 <div data-aos="fade-right" data-aos-easing="linear"
                     data-aos-duration="1800" class="box">
 
-                    <h3>Flexbox</h3>
+                    <h3>MAIL</h3>
                     <div >
                         <p class="third"><i style={{ fontSize: "50px" }} class="fa fa-envelope" aria-hidden="true"></i></p>
                         <span class="third">sadiasultana.dev@gmail.com</span>

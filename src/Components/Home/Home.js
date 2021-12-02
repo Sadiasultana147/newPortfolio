@@ -8,8 +8,8 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div className="overflow-hidden">
-            <div>
+        <div className="overflow-hidden body">
+            <div className="overflow-hidden">
                 <Background></Background>
                 <Skills></Skills>
 

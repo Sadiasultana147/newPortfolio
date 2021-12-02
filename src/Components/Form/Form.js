@@ -24,9 +24,9 @@ const Form = () => {
     };
     return (
         <div data-aos="zoom-in  " data-aos-easing="linear"
-            data-aos-duration="1500" className="contact  pt-5 overflow-hidden">
+            data-aos-duration="1500" className="contact   pt-5 overflow-hidden body">
             <div class="row ">
-                <div style={{ color: "white" }} className="row col-lg-5 ms-2 me-3"><Formcard></Formcard></div>
+                <div style={{ color: "white" }} className="row col-lg-5 me-3 overflow-hidden"><Formcard></Formcard></div>
                 <div className="row col-lg-7 " >
                     <div id="form" data-aos="fade-left" data-aos-easing="linear"
                         data-aos-duration="1500"

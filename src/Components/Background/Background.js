@@ -9,11 +9,11 @@ import Icons from '../Icons/Icons';
 
 const Background = () => {
     return (
-        <div className="overflow-hidden">
-            <div class="wrapper overflow-hidden  ">
+        <div className="overflow-hidden body">
+            <div class="wrapper overflow-hidden  body">
                 <Header></Header>
 
-                <div>
+                <div className=" overflow-hidden body">
 
 
                     <div class="patterns">
@@ -65,7 +65,7 @@ const Background = () => {
 
 
 
-                <div class="boxes">
+                <div class="boxes body">
                     <div></div>
                     <div></div>
                     <div></div>

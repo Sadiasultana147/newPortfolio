@@ -17,7 +17,7 @@ const ProjectDetails = () => {
 
     const Project = projects.find(project => (project.id == projectId))
     return (
-        < div className="wrapper overflow-hidden"  >
+        < div className="wrapper overflow-hidden body"  >
             <div>
                 <Header></Header>
             </div>

@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 const Skills = () => {
     AOS.init();
     return (
-        <div className="overflow-hidden" data-aos="fade-down" data-aos-easing="linear"
+        <div className="overflow-hidden body" data-aos="fade-down" data-aos-easing="linear"
             data-aos-duration="1500" style={{ backgroundColor: "purple", opacity: "0.9" }} id="skills" >
             <h2 style={{ color: "white" }} className="pt-5" >MY SKILLS</h2>
             <hr style={{ color: "black" }} />

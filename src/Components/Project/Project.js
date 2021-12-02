@@ -5,8 +5,8 @@ import './Project.css'
 const Project = (props) => {
     const { id, liveLink, gitLink, ProjectName, image1, image2, image3, image4, image5 } = props.project
     return (
-        <div >
-            <div class="col h-100 pb-5 overflow-hidden">
+        <div className="overflow-hidden body" >
+            <div class="col h-100 pb-5 ">
                 <div class="card  h-100">
                     <div>
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
