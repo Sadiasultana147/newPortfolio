@@ -14,43 +14,55 @@ const Skills = () => {
             <div data-aos="fade-down" data-aos-easing="linear"
                 data-aos-duration="1500" class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-1 pt-5">
                 <div className="col">
-                    <img className="w-75 h-50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="" />
+                    <img data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500" className="w-75 h-50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="" />
                 </div>
                 <div className="col">
                     <img className="w-75 h-50" src="https://cdn.dribbble.com/users/66221/screenshots/1655604/media/e4330d62b9e74eaf987923c8f9cbf51d.png?compress=1&resize=400x300" alt="" />
                 </div>
                 <div class="col">
-                    <img className="w-75 h-50" src="https://img.favpng.com/11/5/25/responsive-web-design-web-development-bootstrap-front-and-back-ends-png-favpng-bAuB3Vgmw0icXkiVfsW0K8yFJ.jpg" alt="" />
+                    <img data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500" className="w-75 h-50" src="https://img.favpng.com/11/5/25/responsive-web-design-web-development-bootstrap-front-and-back-ends-png-favpng-bAuB3Vgmw0icXkiVfsW0K8yFJ.jpg" alt="" />
                 </div>
                 <div className="col">
-                    <img className="w-75 h-50" src="http://innovativeteams.net/wp-content/uploads/2017/01/jsLogo.png" alt="" />
+                    <img data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500" className="w-75 h-50" src="http://innovativeteams.net/wp-content/uploads/2017/01/jsLogo.png" alt="" />
                 </div>
                 <div className="col">
-                    <img className="w-75 h-50" src="https://banner2.cleanpng.com/20180410/dbq/kisspng-react-javascript-responsive-web-design-github-angu-github-5accac24ced243.4761515415233628528472.jpg" alt="" />
+                    <img data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500" className="w-75 h-50" src="https://banner2.cleanpng.com/20180410/dbq/kisspng-react-javascript-responsive-web-design-github-angu-github-5accac24ced243.4761515415233628528472.jpg" alt="" />
                 </div>
                 <div className="col">
-                    <img className="w-75 h-50" src="https://namespaceit.com/uploads/post/image/1619239547.png" alt="" />
+                    <img data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500" className="w-75 h-50" src="https://namespaceit.com/uploads/post/image/1619239547.png" alt="" />
                 </div>
                 <div className="col">
-                    <img className="w-75 h-50" src="https://res.cloudinary.com/practicaldev/image/fetch/s--y3_yPeyX--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/cn3fhksq1pjgqjur70p1.png" alt="" />
+                    <img data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500" className="w-75 h-50" src="https://res.cloudinary.com/practicaldev/image/fetch/s--y3_yPeyX--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/cn3fhksq1pjgqjur70p1.png" alt="" />
                 </div>
                 <div className="col">
-                    <img className="w-75 h-50" src="https://res.cloudinary.com/practicaldev/image/fetch/s--Fn5V-TjG--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ekjlwtc87ktcrzmahn9j.png" alt="" />
+                    <img data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500" className="w-75 h-50" src="https://res.cloudinary.com/practicaldev/image/fetch/s--Fn5V-TjG--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ekjlwtc87ktcrzmahn9j.png" alt="" />
                 </div>
                 <div className="col">
-                    <img className="w-75 h-50" src="https://img.favpng.com/12/9/4/mongodb-logo-database-nosql-postgresql-png-favpng-mcEPKatsp6vtFjnFRhApvc5Z5.jpg" alt="" />
+                    <img data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500" className="w-75 h-50" src="https://img.favpng.com/12/9/4/mongodb-logo-database-nosql-postgresql-png-favpng-mcEPKatsp6vtFjnFRhApvc5Z5.jpg" alt="" />
                 </div>
                 <div className="col">
-                    <img className="w-75 h-50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGgXjuqG9BKVB_j1e3-nrYR4ZbgUrc3e1MWw&usqp=CAU" alt="" />
+                    <img data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500" className="w-75 h-50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGgXjuqG9BKVB_j1e3-nrYR4ZbgUrc3e1MWw&usqp=CAU" alt="" />
                 </div>
                 <div className="col">
-                    <img className="w-75 h-50" src="https://e7.pngegg.com/pngimages/540/810/png-clipart-node-js-javascript-npm-computer-icons-web-application-others-miscellaneous-text.png" alt="" />
+                    <img data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500" className="w-75 h-50" src="https://e7.pngegg.com/pngimages/540/810/png-clipart-node-js-javascript-npm-computer-icons-web-application-others-miscellaneous-text.png" alt="" />
                 </div>
                 <div className="col">
-                    <img className="w-75 h-50" src="https://img1.pnghut.com/12/1/17/6VbrqUa5Q1/programming-language-logo-programmer-magenta-brand.jpg" alt="" />
+                    <img data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500" className="w-75 h-50" src="https://img1.pnghut.com/12/1/17/6VbrqUa5Q1/programming-language-logo-programmer-magenta-brand.jpg" alt="" />
                 </div>
                 <div className="col">
-                    <img className="w-75 h-50" src="https://w7.pngwing.com/pngs/134/190/png-transparent-sql-logo-microsoft-sql-server-mysql-database-logo-others-blue-text-trademark.png" alt="" />
+                    <img data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500" className="w-75 h-50" src="https://w7.pngwing.com/pngs/134/190/png-transparent-sql-logo-microsoft-sql-server-mysql-database-logo-others-blue-text-trademark.png" alt="" />
                 </div>
             </div>
             <h5 className="skillbg">FAMILIER</h5>
