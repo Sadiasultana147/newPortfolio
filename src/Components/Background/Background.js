@@ -34,14 +34,18 @@ const Background = () => {
 
 
                             <text x="50%" y="60%" text-anchor="middle"  >
-                                WELCOME TO MY PORTFOLIO
+                                WELCOME TO
+                            </text>
+                            <br />
+                            <text x="50%" y="100%" text-anchor="middle"  >
+                                MY PORTFOLIO
                             </text>
 
 
                         </svg>
                     </div>
 
-                    <h3 style={{ color: "white" }}>Hi ! <span style={{ color: " cyan" }}>I'm SADIA SULTANA</span></h3>
+                    <h3 className="mt-5" style={{ color: "white" }}>Hi ! <span style={{ color: " cyan" }}>I'm SADIA SULTANA</span></h3>
 
 
                     <TypeAnimation
