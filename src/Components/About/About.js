@@ -5,7 +5,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="aboutbg pt-5 pb-4 ">
+        <div className="aboutbg pt-5 pb-4 overflow-hidden ">
             <Header></Header>
             <h1>ABOUT ME</h1>
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-1 pt-5">

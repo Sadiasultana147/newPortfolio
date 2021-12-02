@@ -4,7 +4,7 @@ import './Icon.css'
 const Icons = () => {
     return (
         <div>
-            <div class="container">
+            <div class="container overflow-hidden">
 
                 <div class="social-buttons">
 

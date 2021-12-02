@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light navbar-bg  ">
-            <div className="container-fluid">
+            <div className="container-fluid overflow-hidden">
 
                 <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span className="navbar-toggler-icon"></span>

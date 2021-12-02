@@ -7,7 +7,7 @@ import './Formcard.css'
 const Formcard = () => {
     AOS.init();
     return (
-        <div  >
+        <div className="overflow-hidden"  >
 
 
 

@@ -23,9 +23,10 @@ const Form = () => {
         e.target.reset();
     };
     return (
-        <div data-aos="fade-down" className="contact  pt-5">
+        <div data-aos="zoom-in  " data-aos-easing="linear"
+            data-aos-duration="1500" className="contact  pt-5 overflow-hidden">
             <div class="row ">
-                <div style={{ color: "white" }} className="row col-lg-5 ms-2"><Formcard></Formcard></div>
+                <div style={{ color: "white" }} className="row col-lg-5 ms-2 me-3"><Formcard></Formcard></div>
                 <div className="row col-lg-7 " >
                     <div id="form" data-aos="fade-left" data-aos-easing="linear"
                         data-aos-duration="1500"

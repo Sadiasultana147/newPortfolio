@@ -4,7 +4,7 @@ import './Blogs.css'
 
 const Blogs = () => {
     return (
-        <div className="blogs">
+        <div className="blogs overflow-hidden">
             <Header></Header>
             <h1 style={{ color: "white" }} className="mt-5 pt-5 ">Coming Soon............</h1>
         </div>

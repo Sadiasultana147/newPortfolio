@@ -9,8 +9,8 @@ import Icons from '../Icons/Icons';
 
 const Background = () => {
     return (
-        <div >
-            <div class="wrapper ">
+        <div className="overflow-hidden">
+            <div class="wrapper overflow-hidden  ">
                 <Header></Header>
 
                 <div>
