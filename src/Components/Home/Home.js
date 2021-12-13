@@ -18,7 +18,8 @@ const Home = () => {
                 </div>
 
             </div>
-            <Form></Form>
+            <Form data-aos="fade-up  " data-aos-easing="linear"
+                data-aos-duration="1500" className="contact   pt-5 overflow-hidden body"></Form>
         </div>
     );
 };
