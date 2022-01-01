@@ -32,7 +32,7 @@ const Header = () => {
 
                     </div>
                     <div className="navbar-nav ms-auto ms-5 ps-5 mt-3">
-                        <a href="https://drive.google.com/file/d/1x0NW4zatDRuyvChvzZ-_n6Grn3tD5QKJ/view?usp=sharing" target="_blank"><button style={{ color: "white" }} className="btn-grad">
+                        <a href="https://drive.google.com/file/d/1v4cWCl9XXPdlXk0fSqqVuhQWBmkcXL2t/view?usp=sharing" target="_blank"><button style={{ color: "white" }} className="btn-grad">
                             <i class="fas fa-download"></i>Get Resume</button></a>
 
                     </div>
